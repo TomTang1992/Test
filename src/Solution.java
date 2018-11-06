@@ -15,10 +15,10 @@
 public class Solution {//是否是回文数
     public boolean isPalindrome(int x) {
         Integer a=new Integer(x);
-        String b=a.toString();
+     String b=a.toString();
         char[] c=b.toCharArray();
-        String e="";
-        String f="";
+      String e="";
+      String f="";
         for (char d:c
              ) {
             e+=d;
