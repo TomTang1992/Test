@@ -27,6 +27,8 @@ import java.util.List;
 public class TheAnswer {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {//回溯算法
         ArrayList<List<Integer>> arrayList=new ArrayList<>();
+        ArrayList<Integer> list=new ArrayList<>();
+
         return arrayList;
     }
 }
